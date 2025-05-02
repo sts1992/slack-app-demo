@@ -1,0 +1,6 @@
+flask==2.0.1
+werkzeug==2.0.1
+slack-sdk==3.19.5
+python-dotenv==1.0.0
+gunicorn==20.1.0
+google-cloud-aiplatform>=1.36.0
