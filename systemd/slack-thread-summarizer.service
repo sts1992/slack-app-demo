@@ -3,9 +3,9 @@ Description=Slack Thread Summarizer Service
 After=network.target
 
 [Service]
-User=ubuntu
-WorkingDirectory=/home/ubuntu/slack-thread-summarizer
-ExecStart=/home/ubuntu/slack-thread-summarizer/venv/bin/gunicorn --bind 0.0.0.0:8080 --workers 2 app:app
+User=debian
+WorkingDirectory=/home/debian/slack-app-demo
+ExecStart=/home/debian/slack-app-demo/venv/bin/gunicorn --bind 0.0.0.0:8080 --workers 2 app:app
 Restart=always
 
 [Install]
